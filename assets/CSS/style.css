@@ -1,0 +1,135 @@
+.top-header .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+}
+.top-header .inner-content {
+    display: flex;
+    justify-content: space-between;
+}
+.top-header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+.top-header .inner-content .language a {
+    color: black;
+}
+.top-header .inner-content  .date {
+    margin-right: 10px;
+}
+.social ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+    display: flex;
+} 
+.social ul li {
+    padding: 0px 10px;
+    font-size: 18px;
+}
+/* .social ul .item:hover {
+    background-color: black;
+    color: white;
+} */
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .item h3{
+    padding: 10px ;
+    font-size: 22px;
+    font-weight: 600;
+}
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.highlights .inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlights .inner-content .image  {
+    width: 50%;
+    height: auto;
+    /* flex: 1; */
+}
+.highlights .inner-content .image img {
+    width: 100%;
+}
+
+.highlights .inner-content .title h4{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.main .gCertNews .inner-content {
+    margin-top: 20px;
+}
+.main .gCertNews .main-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.main .gCertNews .main-title::after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+.main .gCertNews .inner-content {
+    cursor: pointer;
+}
+.main .gCertNews .inner-content .image {
+    width: 100%;
+    height: auto;
+    /* flex: 1; */
+    margin-bottom: 10px;
+    
+}
+.main .gCertNews .inner-content .image img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    overflow: auto;
+}
+.main .gCertNews .inner-content:hover{
+    transform: scale(1.1) ;
+    transition: transform 500ms ease;
+    overflow: hidden ;
+}
+.main .gCertNews .inner-content .title h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.main .gCertNews .inner-content .desc {
+    margin-bottom: 10px;
+}
+.main .gCertNews .inner-content .read {
+    font-size: 18px;
+    font-weight: 600;
+}
